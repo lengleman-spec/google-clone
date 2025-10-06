@@ -45,7 +45,6 @@ header {
 .icon-link {
   font-size: 1rem;
   color: inherit;
-  background-color: pink;
   width: 30px;
   aspect-ratio: 1 / 1;
   overflow: hidden;
@@ -54,6 +53,10 @@ header {
   /*Used to center 1 element. place-items:center will center item both horizontally and vertically.*/
   display: grid;
   place-items: center;
+}
+
+.icon-link:hover {
+  background: rgb(233, 232, 232);
 }
 
 .img-button {
