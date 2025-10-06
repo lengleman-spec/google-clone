@@ -24,3 +24,17 @@ header {
   align-items: center;
   gap: 14px;
 }
+
+.img-button {
+  border: none;
+  background-color: transparent;
+}
+
+/* Below is decendant combinator (space) to target all imgs that are any type of decendant of an element with the class 'img-button' */
+.img-button img {
+  width: 40px;
+  aspect-ratio: 1 / 1;
+  /* aspect-ratio means whenever we set a width, the height will be the corresponding height evenly, at a 1:1 ratio. So, because we set the width to be 40px above, the height will also now be 40px. */
+  overflow: hidden;
+  border-radius: 100%;
+}
