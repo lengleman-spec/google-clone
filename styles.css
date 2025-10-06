@@ -5,6 +5,12 @@
   font-family: "Inter", sans-serif;
 }
 
+.google-header {
+  /* Overrides universal rule b/c classes have higher specificity.
+    The universal * has the lowest specificity */
+  font-family: "Poppins", sans-serif;
+}
+
 header {
   display: flex;
   justify-content: space-between;
