@@ -9,6 +9,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  font-size: 0.9rem;
+}
+
 .google-header {
   /* Overrides universal rule b/c classes have higher specificity.
     The universal * has the lowest specificity */
@@ -29,16 +33,39 @@ header {
   gap: 1rem;
 }
 
+.text-link {
+  /*By setting color:inherit; the links will inherit their parent: the <body>*/
+  color: inherit;
+}
+
+.text-link:hover {
+  text-decoration: underline;
+}
+
+.icon-link {
+  font-size: 1rem;
+  color: inherit;
+  background-color: pink;
+  width: 30px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 100%;
+
+  /*Used to center 1 element. place-items:center will center item both horizontally and vertically.*/
+  display: grid;
+  place-items: center;
+}
+
 .img-button {
   border: none;
   background-color: transparent;
 }
 
-/* Below is decendant combinator (space) to target all imgs that are any type of decendant of an element with the class 'img-button' */
+/*Below is decendant combinator (space) to target all imgs that are any type of decendant of an element with the class 'img-button'*/
 .img-button img {
   width: 40px;
   aspect-ratio: 1 / 1;
-  /* aspect-ratio means whenever we set a width, the height will be the corresponding height evenly, at a 1:1 ratio. So, because we set the width to be 40px above, the height will also now be 40px. */
+  /*aspect-ratio means whenever we set a width, the height will be the corresponding height evenly, at a 1:1 ratio. So, because we set the width to be 40px above, the height will also now be 40px.*/
   overflow: hidden;
   border-radius: 100%;
 }
