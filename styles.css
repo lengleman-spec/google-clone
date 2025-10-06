@@ -5,6 +5,10 @@
   font-family: "Inter", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .google-header {
   /* Overrides universal rule b/c classes have higher specificity.
     The universal * has the lowest specificity */
@@ -15,14 +19,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 14px;
-  gap: 14px;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 .nav-container {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 1rem;
 }
 
 .img-button {
