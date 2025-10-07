@@ -93,10 +93,21 @@ main {
   gap: 1rem;
   width: 100%;
   max-width: 500px;
+  border: 1px solid rgb(233, 232, 232);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.input-bar:hover,
+.input-bar:focus-within {
+  box-shadow: 0 0 4px 1px rgb(238, 238, 238);
 }
 
 .input-bar input {
   flex: 1;
+  border: none;
+  outline: none;
+  width: 100%;
 }
 
 .input-bar div {
