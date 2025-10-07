@@ -84,12 +84,19 @@ main {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  padding: 1rem;
 }
 
 .input-bar {
   display: flex;
   align-items: center;
   gap: 1rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+.input-bar input {
+  flex: 1;
 }
 
 .input-bar div {
