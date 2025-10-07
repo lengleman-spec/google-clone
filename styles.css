@@ -85,3 +85,16 @@ main {
   align-items: center;
   gap: 1rem;
 }
+
+.input-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input-bar div {
+  /*Above code selects any divs within elements that have the class .input-bar*/
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
