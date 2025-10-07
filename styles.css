@@ -11,6 +11,10 @@ a {
 
 body {
   font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  /*(Below) Makes the body at least as big as 100% of the view height */
+  min-height: 100vh;
 }
 
 .google-header {
@@ -71,4 +75,12 @@ header {
   /*aspect-ratio means whenever we set a width, the height will be the corresponding height evenly, at a 1:1 ratio. So, because we set the width to be 40px above, the height will also now be 40px.*/
   overflow: hidden;
   border-radius: 100%;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
