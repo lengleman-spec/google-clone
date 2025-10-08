@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  color: #0f172a;
 }
 
 a {
@@ -87,13 +88,17 @@ main {
   padding: 1rem;
 }
 
+.title-text {
+  font-size: 3rem;
+}
+
 .input-bar {
   display: flex;
   align-items: center;
   gap: 1rem;
   width: 100%;
   max-width: 500px;
-  border: 1px solid rgb(233, 232, 232);
+  border: 2px solid rgb(233, 232, 232);
   padding: 1rem;
   border-radius: 1rem;
 }
@@ -115,4 +120,8 @@ main {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.input-icon:hover {
+  opacity: 0.6;
 }
