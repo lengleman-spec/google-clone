@@ -152,12 +152,24 @@ main {
   border: 1px solid slategray;
 }
 
+.language-text {
+  font-size: 0.7rem;
+}
+
 .language-link {
   color: blue;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .language-link:hover {
   text-decoration: underline;
-  cursor: pointer;
+}
+
+footer {
+  background-color: rgb(238, 238, 238);
+}
+
+footer > div {
+  padding: 1rem;
 }
