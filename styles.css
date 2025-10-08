@@ -122,6 +122,10 @@ main {
   gap: 1rem;
 }
 
+.input-icon {
+  background: transparent;
+  border: none;
+}
 .input-icon:hover {
   opacity: 0.6;
 }
