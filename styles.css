@@ -18,6 +18,10 @@ body {
   min-height: 100vh;
 }
 
+button {
+  cursor: pointer;
+}
+
 .google-header {
   /* Overrides universal rule b/c classes have higher specificity.
     The universal * has the lowest specificity */
@@ -84,7 +88,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
   padding: 1rem;
 }
 
@@ -126,6 +130,34 @@ main {
   background: transparent;
   border: none;
 }
+
 .input-icon:hover {
   opacity: 0.6;
+}
+
+.button-grid {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button-grid button {
+  padding: 0.5rem 1rem;
+  border: 1px solid transparent;
+  background: rgb(236, 235, 235);
+  border-radius: 0.25rem;
+}
+
+.button-grid button:hover {
+  border: 1px solid slategray;
+}
+
+.language-link {
+  color: blue;
+  text-decoration: none;
+}
+
+.language-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
