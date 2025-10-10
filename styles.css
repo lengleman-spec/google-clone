@@ -160,6 +160,7 @@ main {
   color: blue;
   text-decoration: none;
   cursor: pointer;
+  font-size: 0.7rem;
 }
 
 .language-link:hover {
@@ -168,8 +169,22 @@ main {
 
 footer {
   background-color: rgb(238, 238, 238);
+  font-size: 0.8rem;
 }
 
 footer > div {
   padding: 1rem;
+}
+
+.footer-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
