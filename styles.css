@@ -42,12 +42,15 @@ header {
   gap: 1rem;
 }
 
-.text-link {
+.text-link,
+footer a {
   /*By setting color:inherit; the links will inherit their parent: the <body>*/
   color: inherit;
+  text-decoration: none;
 }
 
-.text-link:hover {
+.text-link:hover,
+footer a:hover {
   text-decoration: underline;
 }
 
@@ -93,7 +96,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  padding: 1rem;
+  padding: 4rem 1rem;
 }
 
 .title-text {
@@ -198,11 +201,16 @@ footer > div {
   footer {
     font-size: 0.8rem;
   }
+
   .footer-grid {
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
     gap: 1rem;
+  }
+
+  .nav-container-second .text-link {
+    display: block;
   }
 }
